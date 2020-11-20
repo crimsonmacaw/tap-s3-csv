@@ -1,0 +1,17 @@
+{
+    "streams": [
+        {
+            "tap_stream_id": "my-stream-id",
+            "schema": {},
+            "metadata": [
+                {
+                  "metadata": {
+                    "selected": true,
+                    "table-key-properties": ""
+                  },
+                  "breadcrumb": []
+                }
+              ]
+            }
+        ]
+}
