@@ -63,7 +63,7 @@ The `table` field consists of one or more objects, JSON encoded as an array and 
 ### Run
 
 ```
-tap-s3-csv -c config.sample.json --properties catalog.sample.json
+tap-s3-csv -c config.sample.json --catalog catalog.sample.json
 ```
 
 ---

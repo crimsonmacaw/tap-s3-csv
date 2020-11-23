@@ -76,8 +76,8 @@ def main():
 
     if args.discover:
         do_discover(args.config)
-    elif args.properties:
-        do_sync(config, args.properties, args.state)
+    elif args.catalog:
+        do_sync(config, args.catalog, args.state)
 
 
 if __name__ == '__main__':

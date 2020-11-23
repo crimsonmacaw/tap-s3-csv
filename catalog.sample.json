@@ -1,17 +1,15 @@
 {
     "streams": [
         {
-            "tap_stream_id": "my-stream-id",
-            "schema": {},
+            "tap_stream_id": "mid-year-pop-est-mid",
             "metadata": [
-                {
-                  "metadata": {
-                    "selected": true,
-                    "table-key-properties": ""
-                  },
-                  "breadcrumb": []
-                }
-              ]
+        {
+          "metadata": {
+            "selected": false
+          },
+          "breadcrumb": []
+        }
+      ]
             }
         ]
 }
