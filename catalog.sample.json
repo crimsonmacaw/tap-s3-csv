@@ -3,13 +3,13 @@
         {
             "tap_stream_id": "mid-year-pop-est-mid",
             "metadata": [
-        {
-          "metadata": {
-            "selected": false
-          },
-          "breadcrumb": []
-        }
-      ]
+                {
+                  "metadata": {
+                    "selected": false
+                  },
+                  "breadcrumb": []
+                }
+              ]
             }
         ]
 }

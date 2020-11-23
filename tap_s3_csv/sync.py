@@ -70,7 +70,7 @@ def sync_table_file(config, s3_path, table_spec, stream):
         rec = {**row, **custom_columns}
 
         with Transformer() as transformer:
-            to_write = transformer.transform(rec, stream['schema'], metadata.to_map(stream['metadata']))
+            to_write = transformer.transform(rec, stream.schema.to_dict(), metadata.to_map(stream.metadata))
 
         singer.write_record(table_name, to_write)
         records_synced += 1
