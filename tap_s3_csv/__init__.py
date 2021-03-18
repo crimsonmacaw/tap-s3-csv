@@ -78,7 +78,10 @@ def main():
         do_discover(args.config)
     else:
         if args.catalog:
-            do_sync(config, args.catalog, args.state)
+            if args.state is None:
+                do_sync(config, args.catalog, {})
+            else:
+                do_sync(config, args.catalog, args.state)
 
 
 if __name__ == '__main__':

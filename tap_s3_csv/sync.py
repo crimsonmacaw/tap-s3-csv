@@ -13,7 +13,7 @@ LOGGER = singer.get_logger()
 
 def sync_stream(config, state, table_spec, stream):
     table_name = table_spec['table_name']
-    modified_since = utils.strptime_with_tz(singer.get_bookmark(state, table_name, 'modified_since') or
+    modified_since = utils.strptime_with_tz(singer.get_bookmark(state.get('value', {}), table_name, 'modified_since') or
                                             config['start_date'])
 
     LOGGER.info('Syncing table "%s".', table_name)
