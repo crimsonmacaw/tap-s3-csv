@@ -1,3 +1,5 @@
+# ‼️OBSOLETE‼️
+
 # tap-s3-csv
 
 This is a [Singer](https://singer.io) tap that reads data from files located inside a given S3 bucket and produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
